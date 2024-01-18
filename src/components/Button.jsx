@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "../style";
 
-const Button = ({ styles }) => {
+const Button = ({ style }) => {
   return (
     <button
       type="button"
-      className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px] transition-transform duration-300 hover:translate-y-[-3px] active:scale-95 active:translate-y-0 ${styles}`}
+      className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px] ${styles.buttonAnimate} ${style}`}
     >
       Get Started
     </button>

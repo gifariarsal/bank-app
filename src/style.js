@@ -15,6 +15,9 @@ const styles = {
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+
+  buttonAnimate:
+    "transition-transform duration-300 hover:translate-y-[-3px] active:translate-y-0",
 };
 
 export const layout = {

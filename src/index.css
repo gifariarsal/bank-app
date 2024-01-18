@@ -27,7 +27,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -127,4 +126,22 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+#home:target {
+  scroll-margin-top: 80px;
+}
+
+#features:target,
+#product:target,
+#clients:target {
+  scroll-margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  #features:target,
+  #product:target,
+  #clients:target {
+    scroll-margin-top: 60px;
+  }
 }
