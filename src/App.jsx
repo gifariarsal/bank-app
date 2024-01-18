@@ -3,13 +3,10 @@ import styles from "./style";
 import {
   Billing,
   Business,
-  Button,
   CardDeal,
   Clients,
-  CTAButton,
-  FeedbackCard,
+  CallToAction,
   Footer,
-  GetStarted,
   Hero,
   Navbar,
   Stats,
@@ -39,7 +36,7 @@ const App = () => {
           <CardDeal />
           <Testimonials />
           <Clients />
-          <CTAButton />
+          <CallToAction />
           <Footer />
         </div>
       </div>
